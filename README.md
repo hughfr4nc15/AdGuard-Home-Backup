@@ -24,6 +24,7 @@ A simple shell script to backup and restore your AdGuard Home configuration.
 - [Project Structure](#project-structure)
 - [Contributing](#-contributing)
 - [Testing](#testing)
+- [License](#-license)
 - [Support](#-support)
 - [Acknowledgments](#-acknowledgments)
 
@@ -147,6 +148,10 @@ The script can be tested by running it with different configurations and verifyi
 3. Verify that the backup file is created in the specified directory.
 4. Restore the backup to a different directory.
 5. Verify that the restored configuration matches the original configuration.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 💬 Support
 
