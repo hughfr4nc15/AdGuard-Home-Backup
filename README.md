@@ -16,16 +16,16 @@ A simple shell script to backup and restore your AdGuard Home configuration.
 ## 📋 Table of Contents
 
 - [About](#about)
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Configuration](#%EF%B8%8F-configuration)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Contributing](#-contributing)
 - [Testing](#testing)
-- [Support](#support)
-- [Acknowledgments](#acknowledgments)
+- [Support](#-support)
+- [Acknowledgments](#-acknowledgments)
 
 ## About
 
@@ -93,7 +93,7 @@ chmod +x AdGuard-Backup.sh
 To create a backup, run the script:
 
 ```bash
-./AdGuard-Backup.sh backup
+./AdGuard-Backup.sh
 ```
 
 This will create a compressed archive of your AdGuard Home configuration directory in the specified backup directory.
