@@ -1,6 +1,6 @@
 # 🛠️ AdGuard Home Backup
 
-A simple shell script to backup and restore your AdGuard Home configuration.
+A simple shell script to backup your AdGuard Home configuration.
 
 ## 🛡️ Badges
 
@@ -30,7 +30,7 @@ A simple shell script to backup and restore your AdGuard Home configuration.
 
 ## About
 
-This project provides a simple shell script to automate the backup and restoration of your AdGuard Home configuration. AdGuard Home is a network-wide software for blocking ads & tracking. Regular backups are essential to protect your configuration and data in case of system failure or accidental data loss.
+This project provides a simple shell script to automate the backup of your AdGuard Home configuration. AdGuard Home is a network-wide software for blocking ads & tracking. Regular backups are essential to protect your configuration and data in case of system failure or accidental data loss.
 
 This script aims to simplify the backup process, making it easy for users to create backups on a schedule or on demand. It targets users who are comfortable with the command line and want a reliable way to manage their AdGuard Home backups. The script utilizes standard shell commands and is designed to be lightweight and easy to configure.
 
