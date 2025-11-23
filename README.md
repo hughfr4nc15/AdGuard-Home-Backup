@@ -101,7 +101,7 @@ This will create a compressed archive of your AdGuard Home configuration directo
 
 ### Restore
 
-To restore from a backup, extract the backup file to AdGuard Home directory:
+To restore from a backup, extract the backup file to AdGuard Home directory.
 
 **Important:** Make sure AdGuard Home is stopped before restoring a backup to avoid data corruption.
 
@@ -123,8 +123,9 @@ You can edit these variables directly in the `AdGuard-Backup.sh` file.
 
 ```
 AdGuard-Home-Backup/
-├── AdGuard-Backup.sh  # Main backup script
-└── README.md          # Project documentation
+├── backup_adguard_home.sh  # Main backup script
+├── LICENSE                 # License file
+└── README.md               # Project documentation
 ```
 
 ## 🤝 Contributing
@@ -159,4 +160,4 @@ For support, please open an issue on the [GitHub repository](https://github.com/
 
 ## 🙏 Acknowledgments
 
-- Thanks to the AdGuard Home team for creating such a great product.
+Thanks to the AdGuard Home team for creating such a great product.
