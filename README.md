@@ -1,4 +1,3 @@
-```markdown
 # 🛠️ AdGuard Home Backup
 
 A simple shell script to backup and restore your AdGuard Home configuration.
@@ -68,20 +67,20 @@ Run the script to create a backup:
 
 ### Steps
 
-1.  Clone the repository (optional, if you want to contribute):
+1. Clone the repository (optional, if you want to contribute):
 
 ```bash
 git clone https://github.com/hughfr4nc15/AdGuard-Home-Backup.git
 cd AdGuard-Home-Backup
 ```
 
-2.  Download the script directly:
+2. Download the script directly:
 
 ```bash
 wget https://raw.githubusercontent.com/hughfr4nc15/AdGuard-Home-Backup/main/AdGuard-Backup.sh
 ```
 
-3.  Make the script executable:
+3. Make the script executable:
 
 ```bash
 chmod +x AdGuard-Backup.sh
@@ -94,7 +93,7 @@ chmod +x AdGuard-Backup.sh
 To create a backup, run the script:
 
 ```bash
-.AdGuard-Backup.sh
+./AdGuard-Backup.sh backup
 ```
 
 This will create a compressed archive of your AdGuard Home configuration directory in the specified backup directory.
@@ -133,21 +132,21 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ### Contribution Steps
 
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Make your changes.
-4.  Test your changes.
-5.  Submit a pull request.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes.
+4. Test your changes.
+5. Submit a pull request.
 
 ## Testing
 
 The script can be tested by running it with different configurations and verifying that the backups are created correctly and that the restore process works as expected.
 
-1.  Create a test AdGuard Home configuration.
-2.  Run the backup script.
-3.  Verify that the backup file is created in the specified directory.
-4.  Restore the backup to a different directory.
-5.  Verify that the restored configuration matches the original configuration.
+1. Create a test AdGuard Home configuration.
+2. Run the backup script.
+3. Verify that the backup file is created in the specified directory.
+4. Restore the backup to a different directory.
+5. Verify that the restored configuration matches the original configuration.
 
 ## 💬 Support
 
@@ -156,4 +155,3 @@ For support, please open an issue on the [GitHub repository](https://github.com/
 ## 🙏 Acknowledgments
 
 - Thanks to the AdGuard Home team for creating such a great product.
-```
