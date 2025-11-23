@@ -53,7 +53,7 @@ chmod +x AdGuard-Backup.sh
 Run the script to create a backup:
 
 ```bash
-./AdGuard-Backup.sh backup
+./AdGuard-Backup.sh
 ```
 
 ## 📦 Installation
